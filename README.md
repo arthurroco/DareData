@@ -40,6 +40,7 @@ Click on the image
 |------|---------|-------------|
 |2021/12/08 | 1.0.0   | Initial version |
 |2021/12/09 | 1.0.1   | The WWII page label has been fixed. |
+|2021/12/09 | 1.0.2   | The Why has the global fertility rate fallen page label has been changed. |
 
 ## Bibliographic Reference
 - [Instituto Butantan] - Como surgiu o novo coronavírus? Conheça as teorias mais aceitas sobre sua origem

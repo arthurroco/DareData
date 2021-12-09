@@ -4451,6 +4451,26 @@
               <bucket>&quot;Asia&quot;</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[none:geo.name:nk]' type='palette'>
+            <map to='#002664'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#009246'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#50b4f4'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#bc002d'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#ce1126'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#ffce00'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[:Measure Names]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;[federated.0u06g9r0n0zuij1g1jsn416dq7pa].[__tableau_internal_object_id__].[cnt:countries!and!territories_C123EB5847194A78892E48DDCD2A512C:qk]&quot;</bucket>
@@ -4481,26 +4501,6 @@
             </map>
             <map to='#ff9da7'>
               <bucket>&quot;[federated.0db136i0na7cur140l5u00tywnxb].[win:avg:Global TFR (cópia)_1270296617410486278:qk]&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:geo.name:nk]' type='palette'>
-            <map to='#002664'>
-              <bucket>&quot;United States&quot;</bucket>
-            </map>
-            <map to='#009246'>
-              <bucket>&quot;Italy&quot;</bucket>
-            </map>
-            <map to='#50b4f4'>
-              <bucket>&quot;France&quot;</bucket>
-            </map>
-            <map to='#bc002d'>
-              <bucket>&quot;Japan&quot;</bucket>
-            </map>
-            <map to='#ce1126'>
-              <bucket>&quot;United Kingdom&quot;</bucket>
-            </map>
-            <map to='#ffce00'>
-              <bucket>&quot;Germany&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -5891,7 +5891,6 @@
               <color column='[federated.0u06g9r0n0zuij1g1jsn416dq7pa].[:Measure Names]' />
               <tooltip column='[federated.0db136i0na7cur140l5u00tywnxb].[usr:Calculation_1270296617430802439:ok]' />
               <tooltip column='[federated.0db136i0na7cur140l5u00tywnxb].[usr:Percent (-) (cópia)_1270296617431568392:ok:1]' />
-              <text column='[federated.0db136i0na7cur140l5u00tywnxb].[avg:Valores de campo da tabela dinâmica:qk]' />
             </encodings>
             <customized-tooltip>
               <formatted-text>
@@ -5899,7 +5898,6 @@
                 <run bold='true'><![CDATA[<[federated.0u06g9r0n0zuij1g1jsn416dq7pa].[none:Nomes de campo da tabela dinâmica:ok]>]]></run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#787878'>Average:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.0db136i0na7cur140l5u00tywnxb].[avg:Valores de campo da tabela dinâmica:qk]>]]></run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#787878'>Percent:&#9;</run>
                 <run bold='true' fontcolor='#50b4f4'><![CDATA[<[federated.0db136i0na7cur140l5u00tywnxb].[usr:Percent (-) (cópia)_1270296617431568392:ok:1]>]]></run>
@@ -5907,13 +5905,6 @@
                 <run>Æ&#10;</run>
               </formatted-text>
             </customized-tooltip>
-            <customized-label>
-              <formatted-text>
-                <run fontsize='7'>&lt;</run>
-                <run fontsize='7'>[federated.0db136i0na7cur140l5u00tywnxb].[avg:Valores de campo da tabela dinâmica:qk]</run>
-                <run fontsize='7'>&gt;</run>
-              </formatted-text>
-            </customized-label>
             <style>
               <style-rule element='cell'>
                 <format attr='text-orientation' value='-90' />
@@ -5924,11 +5915,11 @@
               </style-rule>
               <style-rule element='mark'>
                 <format attr='size' value='0.0099999997764825821' />
-                <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
                 <format attr='mark-markers-mode' value='all' />
                 <format attr='mark-transparency' value='32' />
                 <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='false' />
               </style-rule>
               <style-rule element='trendline'>
                 <format attr='stroke-size' value='0' />
@@ -6021,7 +6012,7 @@
                 <page-reference />
               </visual-coordinate>
             </point>
-            <body x='-2' y='63' />
+            <body x='-47' y='-51' />
           </annotation>
           <annotation class='point' id='7' mark-position='1' pullback='0' text-width='180'>
             <formatted-text>
@@ -6049,7 +6040,7 @@
                 <page-reference />
               </visual-coordinate>
             </point>
-            <body x='51' y='-65' />
+            <body x='2' y='-64' />
           </annotation>
           <annotation class='point' id='8' mark-position='1' pullback='0' text-width='180'>
             <formatted-text>
@@ -6077,7 +6068,7 @@
                 <page-reference />
               </visual-coordinate>
             </point>
-            <body x='-32' y='42' />
+            <body x='65' y='-103' />
           </annotation>
           <annotation class='point' id='9' mark-position='1' pullback='0' text-width='180'>
             <formatted-text>
@@ -6105,7 +6096,7 @@
                 <page-reference />
               </visual-coordinate>
             </point>
-            <body x='94' y='-75' />
+            <body x='473' y='-77' />
           </annotation>
           <annotation class='point' id='10' mark-position='1' pullback='0' text-width='180'>
             <formatted-text>
@@ -6163,15 +6154,15 @@
             </point>
             <body x='-110' y='-90' />
           </annotation>
-          <annotation class='point' id='12' mark-position='1' pullback='0' text-width='180'>
+          <annotation class='point' id='13' mark-position='1' pullback='0' text-width='180'>
             <formatted-text>
-              <run bold='true' fontalignment='1' fontcolor='#de2810'>China&apos;s One-Child Policy</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run bold='true' fontalignment='1' fontcolor='#b4b4b4' fontsize='7'>Política de Hum Filho</run>
+              <run bold='true' fontcolor='#de2810'>China&apos;s One-Child Policy</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#b4b4b4' fontsize='7'>Política de Hum Filho</run>
             </formatted-text>
             <point>
               <visual-coordinate class='axis'>
-                <x-coord cell-offset='0.7'>
+                <x-coord cell-offset='0.35'>
                   <node-reference>
                     <fields>
                       <field>[federated.0u06g9r0n0zuij1g1jsn416dq7pa].[none:Nomes de campo da tabela dinâmica:ok]</field>
@@ -6181,7 +6172,7 @@
                     </multibucket>
                   </node-reference>
                 </x-coord>
-                <y-coord axis-value='4.8771451461003101'>
+                <y-coord axis-value='4.1750409836065572'>
                   <node-reference>
                     <axis>[federated.0db136i0na7cur140l5u00tywnxb].[avg:Valores de campo da tabela dinâmica:qk]</axis>
                   </node-reference>
@@ -6189,7 +6180,7 @@
                 <page-reference />
               </visual-coordinate>
             </point>
-            <body x='130' y='-20' />
+            <body x='-34' y='196' />
           </annotation>
         </annotations>
       </table>
@@ -7750,8 +7741,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='322' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='321' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='328' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='327' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='71' h='9846' id='5' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/daredata_black_logo.png' type-v2='bitmap' w='10721' x='1365' y='2298'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7811,11 +7802,11 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98250' id='233' param='horz' type-v2='layout-flow' w='98960' x='520' y='875'>
-            <zone h='97374' id='22' type-v2='layout-basic' w='98440' x='780' y='1313'>
-              <zone friendly-name='Main' h='97374' id='1' param='vert' type-v2='layout-flow' w='98440' x='780' y='1313'>
-                <zone fixed-size='100' friendly-name='Header' h='11816' id='3' is-fixed='true' param='horz' type-v2='layout-flow' w='98440' x='780' y='1313'>
-                  <zone fixed-size='157' h='9846' id='5' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/daredata_black_logo.png' type-v2='bitmap' w='10721' x='1365' y='2298'>
+          <zone h='98250' id='233' param='horz' type-v2='layout-flow' w='99064' x='468' y='875'>
+            <zone h='98250' id='22' type-v2='layout-basic' w='99064' x='468' y='875'>
+              <zone friendly-name='Main' h='98250' id='1' param='vert' type-v2='layout-flow' w='99064' x='468' y='875'>
+                <zone fixed-size='100' friendly-name='Header' h='11816' id='3' is-fixed='true' param='horz' type-v2='layout-flow' w='99064' x='468' y='875'>
+                  <zone fixed-size='157' h='9846' id='5' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/daredata_black_logo.png' type-v2='bitmap' w='9655' x='995' y='1860'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -7823,7 +7814,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone forceUpdate='true' h='9846' id='6' type-v2='text' w='86549' x='12086' y='2298'>
+                  <zone forceUpdate='true' h='9846' id='6' type-v2='text' w='88355' x='10650' y='1860'>
                     <formatted-text>
                       <run bold='true' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>&lt;</run>
                       <run bold='true' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>Sheet Name</run>
@@ -7843,11 +7834,11 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone h='85558' id='41' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='98440' x='780' y='13129'>
-                  <zone h='85558' id='140' is-fixed='true' type-v2='layout-basic' w='98440' x='780' y='13129'>
-                    <zone h='85558' id='141' param='horz' type-v2='layout-flow' w='98440' x='780' y='13129'>
-                      <zone h='85558' id='179' param='vert' type-v2='layout-flow' w='15530' x='780' y='13129'>
-                        <zone fixed-size='557' h='29704' id='181' is-fixed='true' type-v2='empty' w='15530' x='780' y='13129'>
+                <zone h='86434' id='41' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='99064' x='468' y='12691'>
+                  <zone h='86434' id='140' is-fixed='true' type-v2='layout-basic' w='99064' x='468' y='12691'>
+                    <zone h='86434' id='141' param='horz' type-v2='layout-flow' w='99064' x='468' y='12691'>
+                      <zone h='86434' id='179' param='vert' type-v2='layout-flow' w='13985' x='468' y='12691'>
+                        <zone fixed-size='557' h='30142' id='181' is-fixed='true' type-v2='empty' w='13985' x='468' y='12691'>
                           <zone-style>
                             <format attr='border-color' value='#000000' />
                             <format attr='border-style' value='none' />
@@ -7855,7 +7846,7 @@
                             <format attr='margin' value='4' />
                           </zone-style>
                         </zone>
-                        <zone fixed-size='271' h='29704' id='249' is-fixed='true' type-v2='empty' w='15530' x='780' y='42833'>
+                        <zone fixed-size='271' h='30142' id='249' is-fixed='true' type-v2='empty' w='13985' x='468' y='42833'>
                           <zone-style>
                             <format attr='border-color' value='#000000' />
                             <format attr='border-style' value='none' />
@@ -7863,7 +7854,7 @@
                             <format attr='margin' value='4' />
                           </zone-style>
                         </zone>
-                        <zone fixed-size='231' h='26150' id='178' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/Flag-China.jpg' type-v2='bitmap' w='15530' x='780' y='72537'>
+                        <zone fixed-size='231' h='26150' id='178' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/Flag-China.jpg' type-v2='bitmap' w='13985' x='468' y='72975'>
                           <zone-style>
                             <format attr='border-color' value='#000000' />
                             <format attr='border-style' value='none' />
@@ -7872,8 +7863,8 @@
                           </zone-style>
                         </zone>
                       </zone>
-                      <zone h='85558' id='131' param='vert' type-v2='layout-flow' w='82820' x='16310' y='13129'>
-                        <zone fixed-size='147' forceUpdate='true' h='16958' id='184' is-fixed='true' type-v2='text' w='82820' x='16310' y='13129'>
+                      <zone h='86434' id='131' param='vert' type-v2='layout-flow' w='85042' x='14453' y='12691'>
+                        <zone fixed-size='147' forceUpdate='true' h='16958' id='184' is-fixed='true' type-v2='text' w='85042' x='14453' y='12691'>
                           <formatted-text>
                             <run fontcolor='#000000' fontname='Tableau Bold' fontsize='16'>China&apos;s one-child policy sent global numbers plummeting, but even in the end, why didn&apos;t it rise again? This is due to an increase in access to education, increased participation of women in the labor market, a reduction in infant mortality and an increase in the cost of educating their children.</run>
                           </formatted-text>
@@ -7884,7 +7875,7 @@
                             <format attr='margin' value='4' />
                           </zone-style>
                         </zone>
-                        <zone fixed-size='626' h='68600' id='231' is-fixed='true' name='China TFR x Global TFR' w='82820' x='16310' y='30087'>
+                        <zone fixed-size='626' h='69365' id='231' is-fixed='true' name='China TFR x Global TFR' w='85042' x='14453' y='29649'>
                           <layout-cache cell-count-w='101' minheight='177' type-h='scalable' type-w='cell' />
                           <zone-style>
                             <format attr='border-color' value='#000000' />
@@ -7912,9 +7903,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='320' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='319' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
-                <zone fixed-size='71' h='9846' id='5' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/daredata_black_logo.png' type-v2='bitmap' w='10721' x='1365' y='2298'>
+            <zone h='100000' id='326' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98250' id='325' param='vert' type-v2='layout-flow' w='99064' x='468' y='875'>
+                <zone fixed-size='71' h='9846' id='5' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/daredata_black_logo.png' type-v2='bitmap' w='9655' x='995' y='1860'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7923,7 +7914,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='9846' id='6' type-v2='text' w='86549' x='12086' y='2298'>
+                <zone forceUpdate='true' h='9846' id='6' type-v2='text' w='88355' x='10650' y='1860'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>&lt;</run>
                     <run bold='true' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'>Sheet Name</run>
@@ -7937,7 +7928,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='147' forceUpdate='true' h='16958' id='184' type-v2='text' w='82820' x='16310' y='13129'>
+                <zone fixed-size='147' forceUpdate='true' h='16958' id='184' type-v2='text' w='85042' x='14453' y='12691'>
                   <formatted-text>
                     <run fontcolor='#000000' fontname='Tableau Bold' fontsize='16'>China&apos;s one-child policy sent global numbers plummeting, but even in the end, why didn&apos;t it rise again? This is due to an increase in access to education, increased participation of women in the labor market, a reduction in infant mortality and an increase in the cost of educating their children.</run>
                   </formatted-text>
@@ -7949,7 +7940,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='68600' id='231' is-fixed='true' name='China TFR x Global TFR' w='82820' x='16310' y='30087'>
+                <zone fixed-size='280' h='69365' id='231' is-fixed='true' name='China TFR x Global TFR' w='85042' x='14453' y='29649'>
                   <layout-cache cell-count-w='101' minheight='177' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7959,7 +7950,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='201' h='26150' id='178' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/Flag-China.jpg' type-v2='bitmap' w='15530' x='780' y='72537'>
+                <zone fixed-size='201' h='26150' id='178' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/Flag-China.jpg' type-v2='bitmap' w='13985' x='468' y='72975'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -8071,8 +8062,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='288' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='287' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='294' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='293' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='74' h='10285' id='3' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Total Fertility Rate.twb arquivos/Image/daredata_black_logo.png' type-v2='bitmap' w='13594' x='468' y='875'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -8296,8 +8287,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='308' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='307' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='314' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='313' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='71' h='9846' id='5' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/daredata_black_logo.png' type-v2='bitmap' w='10721' x='1365' y='2298'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -8558,8 +8549,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='309' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='308' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='315' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='314' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='71' h='9846' id='5' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/daredata_black_logo.png' type-v2='bitmap' w='10721' x='1365' y='2298'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -8809,8 +8800,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='319' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98250' id='318' param='vert' type-v2='layout-flow' w='99064' x='468' y='875'>
+            <zone h='100000' id='325' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='324' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='71' h='9846' id='5' is-fixed='true' is-scaled='1' param='V:/Dare/DareData/Images/daredata_black_logo.png' type-v2='bitmap' w='9655' x='995' y='1860'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -9063,7 +9054,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='231' />
       <simple-id uuid='{D435EA22-F2F2-4E90-A1A3-B028CBB0DC68}' />
     </window>
     <window class='worksheet' hidden='true' name='Global TRF' tab-color='#4f779a'>
@@ -9360,7 +9351,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='184' />
+      <active id='-1' />
       <simple-id uuid='{2F49E0D4-3301-45FD-A9B0-35484EA1F34E}' />
     </window>
     <window class='worksheet' hidden='true' name='World Timeline x WWII'>
