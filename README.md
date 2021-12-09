@@ -3,9 +3,10 @@
 [![N|DAREDATA](https://uploads-ssl.webflow.com/6149f8982c778b66d7ca39cd/6149f8982c778b4949ca39dd_Logo%2Bhorizontal_Black.png)](https://www.daredata.engineering/)
 
 # Objective
-Challenge proposed by DAREDATA. For a Data Analyst opportunity, responsible for DAREDATA request me:
-1. Pick a dataset from here.
-2. Make a small presentation that is visualization-based which tells an interesting and accurate story about the dataset.
+This challenge is made for a Data Analyst opportunity and is composed of the following steps:
+1. Select a dataset.
+2. Prepare a small presentation that is visual-based which tells an interesting and accurate story about the dataset selected.
+3. Present your idea and material.
  
 ## Prerequisites
 Tableau Desktop. For download, click [here](https://www.tableau.com/products/trial).
@@ -15,7 +16,7 @@ Tableau Desktop. For download, click [here](https://www.tableau.com/products/tri
 
 ## Spended time
 
-**IMPORTANT:** I spent an hour and 10 minutes more.
+> **IMPORTANT:** I spent an hour and 10 minutes more.
 
 - 00:40 - Searching a better dataset.
 - 04:00 - Reading articles.
@@ -26,7 +27,8 @@ Tableau Desktop. For download, click [here](https://www.tableau.com/products/tri
 **TOTAL:** 07 hours and 10 minutes.
 
 ## Result
-Click [here](https://public.tableau.com/app/profile/arthur.de.oliveira.r.vieira/viz/TotalFertilityRate/TFR?publish=yes).
+Click on the image
+[![N|DAREDATA](https://public.tableau.com/static/images/To/TotalFertilityRate/TFR/4_3.png)](https://public.tableau.com/app/profile/arthur.de.oliveira.r.vieira/viz/TotalFertilityRate/TFR?publish=yes)
 
 ## Autors
 | Author | Email | WhatsApp |
@@ -37,6 +39,7 @@ Click [here](https://public.tableau.com/app/profile/arthur.de.oliveira.r.vieira/
 | Date | Version | Description |
 |------|---------|-------------|
 |2021/12/08 | 1.0.0   | Initial version |
+|2021/12/09 | 1.0.1   | The WWII page label has been fixed. |
 
 ## Bibliographic Reference
 - [Instituto Butantan] - Como surgiu o novo coronavírus? Conheça as teorias mais aceitas sobre sua origem
